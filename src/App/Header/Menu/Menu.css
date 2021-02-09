@@ -1,0 +1,54 @@
+
+.logo-place {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.menu-place {
+    display: grid;
+    align-items: center;
+}
+
+.search-place {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-column-gap: 30px;
+}
+
+.menuTitle {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 5px;
+    justify-items: center;
+}
+
+.menuTitle li a {
+    text-decoration: none;
+    color: white;
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    font-style: normal;
+}
+
+.menuTitle li a:hover {
+    color: #c7b299;
+}
+
+.navigation {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.back-ground-gamburger-menu {
+    visibility: hidden;
+    position: absolute;
+}
+
+.z-index-2 {
+    z-index: 2;
+    position: relative;
+}

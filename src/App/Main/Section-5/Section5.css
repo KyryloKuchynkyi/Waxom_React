@@ -1,0 +1,43 @@
+/* SECTION-5 */
+
+.section5 {
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(to left, #301102, #0e0401)
+}
+
+.grid-columns-section5 {
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.nummbers {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+.nummbers h3 {
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+    color: white;
+}
+
+.nummbers a {
+    color: #c7b299;
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+}
+
+.border_bot {
+    width: 35px;
+    border-bottom: 3px solid white;
+    margin-top: 25px;
+}

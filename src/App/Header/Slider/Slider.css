@@ -1,0 +1,59 @@
+/* SLIDER */
+
+.slider {
+    height: 768px;
+    background-image: url(../../../common/images/Background.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    position: relative;
+    top: -125px;
+    z-index: 1;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-rows-slider {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+.grid-rows-slider h2 {
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+}
+
+.grid-rows-slider h3 {
+    font-family: myriad-arabic, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+}
+
+.grid-rows-slider a {
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    color: white;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.grid-rows-slider button {
+    width: 150px;
+    height: 40px;
+    background-color: #998675;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 40px;
+}

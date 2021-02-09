@@ -1,0 +1,129 @@
+/* SECTION-2 */
+
+.section2 {
+    height: 1160px;
+    width: 100%;
+}
+
+.grid-rows-section2 {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.box-section2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.text_for_image {
+    height: 100px;
+    width: 370px;
+    background-color: #fbfaf8;
+    position: relative;
+    top: -2.5px;
+    display: grid;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.text_for_image h3 {
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    color: #d5c5b2;
+}
+
+.text_for_image a {
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.39);
+}
+
+.load-more {
+    width: 170px;
+    height: 50px;
+    position: relative;
+    left: 42%;
+    top: 40px;
+    background-color: #998675;
+    color: white;
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: normal;
+    border: none;
+    border-radius: 3px;
+}
+
+.text-section2 {
+    display: grid;
+    justify-items: center;
+}
+
+.text-section2 h3 {
+    margin-top: 80px;
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.text-section2 a {
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    width: 615px;
+    text-align: center;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.39);
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.small-boxes {
+    width: 600px;
+    position: relative;
+    left: 340px;
+    margin-bottom: 40px;
+}
+
+.small-boxes button {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    color: rgba(0, 0, 0, 0.39);
+    border-radius: 3px;
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    font-style: normal;
+}
+
+.small-boxes button:hover {
+    background-color: #998675;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.image_box:hover img {
+    opacity: 0.5;
+    background-color: black;
+    background-size: cover;
+}
+
+.image_box:hover .text_for_image {
+    background-color: #362f2d;
+    color: white;
+}
+
+.image_box:hover .text_for_image .search-txt a {
+    color: #c7b299;
+}

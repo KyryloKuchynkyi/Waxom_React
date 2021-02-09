@@ -1,0 +1,83 @@
+/* SECTION-6 */
+
+.section6 {
+    height: 750px;
+    width: 100%;
+}
+
+.grid-rows-section6 {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+.grid-rows-section6 h3 {
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    font-style: normal;
+    margin-top: 40px;
+}
+
+.grid-rows-section6 a {
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    width: 615px;
+    text-align: center;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.39);
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.boxes-section6 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+.txt-img-section6 {
+    display: grid;
+    grid-template-rows: 1fr;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    justify-items: center;
+    position: relative;
+    top: -2.5px;
+}
+
+.txt-img-section6 a {
+    width: 300px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.txt-img-section6 button {
+    width: 90px;
+    height: 20px;
+    position: relative;
+    left: -120px;
+    border: none;
+    background-color: transparent;
+    color: #c7b299;
+}
+
+.box-section6:hover img {
+    opacity: 0.5;
+    background-color: black;
+    background-size: cover;
+}
+
+.box-section6:hover .txt-img-section6 {
+    background-color: #362f2d;
+    color: white;
+}
+
+.box-section6:hover .txt-img-section6 h3 {
+    color: #c7b299;
+}
+
+.box-section6:hover .txt-img-section6 a {
+    color: white;
+}

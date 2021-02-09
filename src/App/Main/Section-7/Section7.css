@@ -1,0 +1,17 @@
+/* SECTION-7 */
+
+.section7 {
+    height: 490px;
+    width: 100%;
+    background-image: url(../../../common/images/background_partners.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid-columns-section7 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 490px;
+}

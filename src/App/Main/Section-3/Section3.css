@@ -1,0 +1,39 @@
+/* SECTION-3 */
+
+.section3 {
+    height: 700px;
+    width: 100%;
+    background-image: url(../../../common/images/bgs5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid-rows-section3 {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    top: 210px;
+}
+
+.grid-rows-section3 h3 {
+    margin-top: 40px;
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+    color: white;
+}
+
+.grid-rows-section3 a {
+    margin-top: 20px;
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    width: 400px;
+    text-align: center;
+    line-height: 20px;
+}
