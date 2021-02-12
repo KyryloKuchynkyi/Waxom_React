@@ -4,7 +4,7 @@ import Slider from "../Header/Slider/Slider"
 
 
 // CSS
-import '../Header/Header.css'
+import './Header.css'
 import '../mobile_version.css'
 
 
