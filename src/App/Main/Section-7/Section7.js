@@ -11,7 +11,6 @@ import logo04 from '../Section-7/logo-04.png';
 
 // CSS
 import '../Section-7/Section7.css'
-import '../../mobile_version.css';
 
 const Section7 = () => {
     return (

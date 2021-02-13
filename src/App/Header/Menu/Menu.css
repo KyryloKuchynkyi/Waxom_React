@@ -1,3 +1,17 @@
+/* MENU */
+
+.z-index-2 {
+    z-index: 2;
+    position: relative;
+}
+
+.grid-columns-header {
+    height: 125px;
+    display: grid;
+    grid-template-columns: 3fr 8fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
 
 .logo-place {
     display: grid;
@@ -18,37 +32,188 @@
     grid-column-gap: 30px;
 }
 
-.menuTitle {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-column-gap: 5px;
-    justify-items: center;
+/* LAPTOP 1024px VERSION */
+
+@media (max-width: 1024px) {
+    .header {
+        height: 547px;
+    }
+
+
+    /* SECTION-4 */
+    .image_box img {
+        width: 300px;
+    }
+
+    .text_for_image {
+        width: 300px;
+    }
+
+    /* SECTION-8 */
+
+    .boxes-section6 img {
+        width: 306px;
+    }
 }
 
-.menuTitle li a {
-    text-decoration: none;
-    color: white;
-    font-family: myriad-arabic, sans-serif;
-    font-weight: 400;
-    font-size: 23px;
-    font-style: normal;
+
+/* TABLET VERSION */
+
+@media (max-width: 768px) {
+
+    /* MOBILE MENU */
+    .back-ground-gamburger-menu {
+        visibility: visible;
+        position: fixed;
+        left: 695px;
+        top: 100px;
+        background-color: #998675;
+        width: 50px;
+        height: 50px;
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1% 50%;
+    }
+
+    .nav-gamburger-menu {
+        width: 26px;
+        height: 25px;
+        position: relative;
+        left: 2px;
+    }
+
+    .nav-gamburger-menu span {
+        height: 3px;
+        background-color: white;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transition: .25s ease-in-out;
+    }
+
+    .nav-gamburger-menu span:nth-child(1) {
+        top: 3px;
+        width: 25px;
+    }
+
+    .nav-gamburger-menu span:nth-child(2) {
+        top: 10px;
+        width: 25px;
+    }
+
+    .nav-gamburger-menu span:nth-child(3) {
+        top: 17px;
+        width: 25px;
+    }
+
+    .hidden-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .navigation {
+        max-width: 600px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        transform: translateX(150%);
+        transition: all 500ms ease-in-out;
+    }
+
+    .nav-gamburger-menu.active-menu span:nth-child(1) {
+        top: 50%;
+        height: 2px;
+        transform: rotate(45deg);
+    }
+
+    .nav-gamburger-menu.active-menu span:nth-child(2) {
+        top: 50%;
+        height: 2px;
+        width: 25px;
+        transform: rotate(-45deg);
+    }
+
+    .nav-gamburger-menu.active-menu span:nth-child(3) {
+        transform: scale(0);
+    }
+
+    .navigation.active-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+        padding: 20px;
+        padding-top: 15px;
+        background-color: #998675;
+        z-index: 100;
+        height: 370px;
+        width: 165px;
+        right: 10%;
+        border-radius: 5px;
+    }
+
+    .close {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        visibility: visible;
+        align-self: flex-end;
+        color: white;
+        background-color: #942121;
+        width: 50px;
+        height: 30px;
+        border: 2px solid #b91d1d;
+        margin-bottom: 5px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+
+
+    /* HEADER  */
+
+    .menuTitle {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-column-gap: 5px;
+        align-items: center;
+    }
+
+    .header {
+        height: 410px;
+    }
+
 }
 
-.menuTitle li a:hover {
-    color: #c7b299;
-}
 
-.navigation {
-    display: grid;
-    grid-template-rows: 1fr;
-}
+/* MOBILE-VERSION */
 
-.back-ground-gamburger-menu {
-    visibility: hidden;
-    position: absolute;
-}
+@media (max-width: 426px) {
+    .back-ground-gamburger-menu {
+        left: 80%;
+    }
 
-.z-index-2 {
-    z-index: 2;
-    position: relative;
+    /* HEADER */
+    .header {
+        height: auto;
+    }
+
+    .z-index-2 {
+        background: linear-gradient(to left, #301102, #0e0401);
+    }
+
+    .navigation.active-menu {
+        right: 21%;
+    }
+
+
 }

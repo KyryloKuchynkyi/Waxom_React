@@ -6,8 +6,8 @@ import Iphone_in_hand from '../Section-4/iPhone in hand.png';
 import O4 from '../Section-4/04.png';
 
 // CSS
+import '../../../common/style/grid.css'
 import '../Section-4/Section4.css'
-import '../../mobile_version.css';
 
 const Section4 = () => {
     return (

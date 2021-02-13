@@ -8,7 +8,6 @@ import Icon_play from '../Section-3/icon-play.png';
 
 // CSS
 import '../Section-3/Section3.css'
-import '../../mobile_version.css';
 
 const Section3 = () => {
     return (

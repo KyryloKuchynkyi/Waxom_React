@@ -11,7 +11,6 @@ import Section7 from "../Main/Section-7/Section7";
 
 
 // CSS
-import '../mobile_version.css'
 
 
 const Main = () => {

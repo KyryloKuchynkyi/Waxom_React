@@ -41,3 +41,19 @@
     border-bottom: 3px solid white;
     margin-top: 25px;
 }
+
+
+/* MOBILE-VERSION */
+
+@media (max-width: 426px) {
+    /* SECTION-5 */
+    .section5  {
+        height: auto;
+    }
+    .grid-columns-section5 {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 20px;
+    }
+}

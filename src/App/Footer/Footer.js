@@ -5,7 +5,7 @@ import React from "react";
 
 // CSS
 import '../Footer/Footer.css'
-import '../mobile_version.css'
+
 
 const Footer = () => {
     return (

@@ -1,9 +1,6 @@
 import React, {Component} from 'react'
 import PropTypes from "prop-types";
 
-import '../../Section-6/Section6.css'
-import '../../../mobile_version.css';
-
 
 
 class BoxListItem extends Component {
@@ -22,14 +19,14 @@ class BoxListItem extends Component {
         } = this.props;
 
         return (
-            <>
+            <div className="box-section6" key={id}>
                 <img src={image} alt={id} />
                 <div className="txt-img-section6">
                     <h3>{info_h3}</h3>
                     <a>{info_a}</a>
                     <button>Read More</button>
                 </div>
-            </>
+            </div>
         )
     }
 }

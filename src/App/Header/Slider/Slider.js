@@ -2,8 +2,7 @@ import React from "react";
 import "../Slider/Slider.css";
 
 // CSS
-import '../../mobile_version.css';
-
+import '../../../common/style/grid.css'
 
 
 

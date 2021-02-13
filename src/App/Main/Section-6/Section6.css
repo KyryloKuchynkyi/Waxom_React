@@ -82,3 +82,56 @@
 .box-section6:hover .txt-img-section6 a {
     color: white;
 }
+
+
+/* TABLET VERSION */
+
+@media (max-width: 768px) {
+
+    /* SECTION-6 */
+
+    .section6 {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .boxes-section6 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .boxes-section6 img {
+        width: 341px;
+    }
+
+    .txt-img-section6 button {
+        position: static;
+    }
+}
+
+/* MOBILE-VERSION */
+
+@media (max-width: 426px) {
+    /* SECTION-6 */
+
+    .section6 {
+        height: auto;
+    }
+
+    .boxes-section6 {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-rows-section6 a {
+        width: auto;
+    }
+
+    .boxes-section6 img {
+        width: 290px;
+    }
+
+    .txt-img-section6 {
+        width: 290px;
+    }
+}

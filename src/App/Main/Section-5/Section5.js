@@ -11,7 +11,6 @@ import Icon_launch from '../Section-5/icon_launch.png';
 
 // CSS
 import '../Section-5/Section5.css'
-import '../../mobile_version.css';
 
 const Section5 = () => {
     return (

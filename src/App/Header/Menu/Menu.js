@@ -7,8 +7,7 @@ import Icon_cart from '../Menu/icon-cart.png';
 import Icon_search from '../Menu/icon-search.png';
 
 // CSS
-import '../Menu/Menu.css';
-import '../../mobile_version.css';
+import './menu.css'
 
 const Menu = () => {
     return (

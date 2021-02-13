@@ -8,8 +8,9 @@ import Icon3 from '../Section-1/icon3.png';
 import Icon4 from '../Section-1/icon4.png';
 
 // CSS
+import '../../../common/style/grid.css'
 import './Section1.css'
-import '../../mobile_version.css';
+
 
 const Section1 = () => {
     return (

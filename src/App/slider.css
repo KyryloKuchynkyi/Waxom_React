@@ -1,19 +1,5 @@
 /* SLIDER */
 
-.slider {
-    height: 768px;
-    background-image: url(../common/images/Background.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100%;
-    position: relative;
-    top: -125px;
-    z-index: 1;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-}
-
 .grid-rows-slider {
     display: grid;
     grid-template-rows: 1fr;

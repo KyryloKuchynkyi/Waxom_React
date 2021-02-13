@@ -1,7 +1,7 @@
 /* SECTION-7 */
 
 .section7 {
-    height: 490px;
+    height: auto;
     width: 100%;
     background-image: url(../../../common/images/background_partners.png);
     background-repeat: no-repeat;
@@ -15,3 +15,15 @@
     align-items: center;
     height: 490px;
 }
+
+
+/* TABLET VERSION */
+
+@media (max-width: 768px) {
+    /* SECTION7 */
+    .grid-columns-section7 img {
+        width: 50%;
+    }
+}
+
+

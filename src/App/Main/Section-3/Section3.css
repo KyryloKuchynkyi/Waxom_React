@@ -37,3 +37,17 @@
     text-align: center;
     line-height: 20px;
 }
+
+/* MOBILE-VERSION */
+
+@media (max-width: 426px) {
+    /* SECTION-3 */
+
+    .grid-rows-section3 h3 {
+        width: auto;
+    }
+
+    .grid-rows-section3 a {
+        width: auto;
+    }
+}

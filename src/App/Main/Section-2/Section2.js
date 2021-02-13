@@ -12,7 +12,6 @@ import Photo6 from '../Section-2/photo6.png';
 
 // CSS
 import '../Section-2/Section2.css'
-import '../../mobile_version.css';
 
 const Section2 = () => {
     return (

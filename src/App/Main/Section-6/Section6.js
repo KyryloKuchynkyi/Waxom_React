@@ -6,7 +6,6 @@ import BoxList from "../Section-6/Info-box/boxList"
 
 // CSS
 import '../Section-6/Section6.css'
-import '../../mobile_version.css';
 
 const Section6 = () => {
     return (
