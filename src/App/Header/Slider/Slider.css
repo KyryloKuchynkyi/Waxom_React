@@ -1,5 +1,10 @@
 /* SLIDER */
 
+.carousel-caption {
+    position: absolute;
+    padding-bottom: 250px !important;
+}
+
 .slider {
     height: auto;
     background-repeat: no-repeat;
@@ -17,7 +22,7 @@
     display: grid;
     grid-template-rows: 1fr;
     justify-items: center;
-    padding-bottom: 300px;
+    padding-bottom: 20px;
 }
 
 .grid-rows-slider h2 {
@@ -65,11 +70,11 @@
 
 @media (max-width: 768px) {
     /* SLIDER */
-
-    .grid-rows-slider {
-        padding-bottom: 60px;
+    .carousel-caption {
+        position: absolute;
+        padding-bottom: 50px !important;
     }
-    
+
     .slider {
         height: 410px;
     }
