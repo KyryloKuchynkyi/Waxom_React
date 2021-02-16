@@ -17,6 +17,7 @@
     display: grid;
     grid-template-rows: 1fr;
     justify-items: center;
+    padding-bottom: 300px;
 }
 
 .grid-rows-slider h2 {
@@ -64,6 +65,11 @@
 
 @media (max-width: 768px) {
     /* SLIDER */
+
+    .grid-rows-slider {
+        padding-bottom: 60px;
+    }
+    
     .slider {
         height: 410px;
     }
@@ -79,6 +85,7 @@
         display: none;
         width: 1px;
     }
+
 
     .grid-rows-slider h2 {
         font-size: 25px;
@@ -98,6 +105,10 @@
         height: 20px;
         margin-top: 0px;
         margin-bottom: 0px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 103px;
     }
 
 }
