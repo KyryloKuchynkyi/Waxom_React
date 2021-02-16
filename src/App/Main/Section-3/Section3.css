@@ -32,7 +32,7 @@
     font-weight: 400;
     font-size: 20px;
     font-style: normal;
-    color: white;
+    color: white !important;
     width: 400px;
     text-align: center;
     line-height: 20px;

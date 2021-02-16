@@ -29,7 +29,7 @@
 }
 
 .nummbers a {
-    color: #c7b299;
+    color: #c7b299 !important;
     font-family: myriad-arabic, sans-serif;
     font-weight: 400;
     font-size: 25px;
