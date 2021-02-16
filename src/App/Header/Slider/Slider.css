@@ -1,8 +1,7 @@
 /* SLIDER */
 
 .slider {
-    height: 768px;
-    background-image: url(../../../common/images/Background.png);
+    height: auto;
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100%;
@@ -66,7 +65,7 @@
 @media (max-width: 768px) {
     /* SLIDER */
     .slider {
-        height: 495px;
+        height: 410px;
     }
 }
 

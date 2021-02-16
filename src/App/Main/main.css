@@ -1,6 +1,10 @@
-/* /* MAIN
+/* /* MAIN/
+
 /* SECTION-1 */
 
+.main {
+    height: auto;
+}
 .section1-box:hover h3 {
     color: #c7b299;
 }

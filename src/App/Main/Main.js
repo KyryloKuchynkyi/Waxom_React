@@ -16,7 +16,7 @@ import Section7 from "../Main/Section-7/Section7";
 const Main = () => {
     return (
         <>
-            <main>
+            <main className='main'>
                 <Section1/>
                 <Section2/>
                 <Section3/>
