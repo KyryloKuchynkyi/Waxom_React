@@ -4,6 +4,8 @@ import Header from "../App/Header/Header"
 import Main from "../App/Main/Main"
 import Footer from "../App/Footer/Footer"
 
+
+
 // CSS
 import '../common/style/grid.css'
 import '../common/style/reset.css'

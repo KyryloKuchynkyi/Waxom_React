@@ -88,13 +88,14 @@
 }
 
 .small-boxes {
-    width: 600px;
-    position: relative;
-    left: 340px;
     margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
 }
 
-.small-boxes button {
+
+.small-boxes li {
+    text-decoration: none;
     width: auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -106,9 +107,10 @@
     font-weight: 400;
     font-size: 17px;
     font-style: normal;
+    margin-left: 20px;
 }
 
-.small-boxes button:hover {
+.small-boxes li:hover {
     background-color: #998675;
     color: white;
     border: 1px solid transparent;
@@ -134,7 +136,7 @@
 @media (max-width: 768px) {
     /* SECTION-2*/
     .section2 {
-        height: 1324px;
+        height: auto;
     }
 
     .small-boxes {
