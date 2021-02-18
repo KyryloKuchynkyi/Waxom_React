@@ -1,13 +1,7 @@
 import React from "react";
+import Sec2List from "../Section-2/Info-box-sec2/sec2List";
 
 // IMAGES
-
-import Photo1 from '../Section-2/photo1.png';
-import Photo2 from '../Section-2/photo2.png';
-import Photo3 from '../Section-2/photo3.png';
-import Photo4 from '../Section-2/photo4.png';
-import Photo5 from '../Section-2/photo5.png';
-import Photo6 from '../Section-2/photo6.png';
 
 
 // CSS
@@ -31,66 +25,7 @@ const Section2 = () => {
                             <button className="photography">Photography</button>
                         </div>
                         <div className="box-section2">
-                            <div className="image_box">
-                                <img src={Photo1} alt="" />
-                                <div className="text_for_image">
-                                    <h3>Claritas Etiam Processus</h3>
-                                    <div className="search-txt">
-                                        <a>Photography,</a>
-                                        <a>Nature</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="image_box">
-                                <img src={Photo2} alt="" />
-                                <div className="text_for_image">
-                                    <h3>Claritas Etiam Processus</h3>
-                                    <div className="search-txt">
-                                        <a>Graphic Design,</a>
-                                        <a>Mock-up</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="image_box">
-                                <img src={Photo3} alt="" />
-                                <div className="text_for_image">
-                                    <h3>Claritas Etiam Processus</h3>
-                                    <div className="search-txt">
-                                        <a>Photography,</a>
-                                        <a>Holiday</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="image_box">
-                                <img src={Photo4} alt="" />
-                                <div className="text_for_image">
-                                    <h3>Claritas Etiam Processus</h3>
-                                    <div className="search-txt">
-                                        <a>Photography,</a>
-                                        <a>Nature</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="image_box">
-                                <img src={Photo5} alt="" />
-                                <div className="text_for_image">
-                                    <h3>Claritas Etiam Processus</h3>
-                                    <div className="search-txt">
-                                        <a>Graphic Design,</a>
-                                        <a>Mock-up</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="image_box">
-                                <img src={Photo6} alt="" />
-                                <div className="text_for_image">
-                                    <h3>Claritas Etiam Processus</h3>
-                                    <div className="search-txt">
-                                        <a>Photography,</a>
-                                        <a>Holiday</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <Sec2List/>
                         </div>
                         <button className="load-more">Load More</button>
                     </div>

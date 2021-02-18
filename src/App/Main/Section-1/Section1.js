@@ -1,6 +1,5 @@
 import React from "react";
 
-// IMAGES
 
 import Sec1List from '../Section-1/Info-box-sec1/sec1List'
 // CSS
