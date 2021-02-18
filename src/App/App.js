@@ -15,7 +15,6 @@ import '../App/Footer/Footer.css'
 
 
 
-
 const App = () => {
     return (
         <>
