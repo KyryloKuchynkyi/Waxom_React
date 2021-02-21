@@ -36,7 +36,8 @@ const sec2 = [
         image: "images/photo6.png",
         info_h3:"Claritas Etiam Processus",
         category:"Nature"  
-    },
+    }
+   
 ]
 
 export default sec2
