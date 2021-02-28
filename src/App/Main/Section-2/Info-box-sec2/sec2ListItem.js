@@ -26,6 +26,7 @@ class sec2ListItem extends Component {
                     <div className="search-txt">
                         <a>{category}</a>
                     </div>
+                    <button>Read more</button>
                 </div>
             </div>
         )
