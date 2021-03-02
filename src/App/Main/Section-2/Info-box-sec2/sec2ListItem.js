@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import PropTypes from "prop-types";
+import {Link} from "react-router-dom"
 
 
 
@@ -24,9 +25,9 @@ class sec2ListItem extends Component {
                 <div className="text_for_image">
                     <h3>{info_h3}</h3>
                     <div className="search-txt">
-                        <a>{category}</a>
+                        <Link to={category}>{category}</Link>
                     </div>
-                    <button>Read more</button>
+                    <Link to={`/about-photo/${id}`}><button>Read more</button></Link>
                 </div>
             </div>
         )

@@ -6,6 +6,7 @@ import Footer from "../App/Footer/Footer"
 
 
 
+
 // CSS
 import '../common/style/grid.css'
 import '../common/style/reset.css'

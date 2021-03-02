@@ -1,12 +1,10 @@
 
 import React from "react";
-import { Component } from "react";
+
 import Sec2List from "../Section-2/Info-box-sec2/sec2List";
-import PropTypes from "prop-types";
+
 import {Link, Route} from "react-router-dom";
-import Graphic from "./Section-2-pages/Graphic/GraphicList";
-import Nature from "./Section-2-pages/Nature/NatureList"
-import Photography from './Section-2-pages/Photography/PhotographyList'
+
 
 // IMAGES
 
@@ -33,10 +31,7 @@ const Section2 = () => {
                             <Link to="/Photography"><li className="photography">Photography</li></Link>
                         </div>
                         <div className="box-section2">
-                            <Route path="/"  exact component={Sec2List}/>
-                            <Route path="/Graphic" component={Graphic}/>
-                            <Route path="/Nature" component={Nature}/>
-                            <Route path="/Photography" component={Photography}/>
+                            <Sec2List/>
                         </div>
                         <button className="load-more">Load More</button>
                     </div>

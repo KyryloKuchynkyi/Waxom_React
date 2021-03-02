@@ -2,9 +2,8 @@ import React from "react"
 import Sec1 from "./sec1";
 import Sec1ListItem from '../Info-box-sec1/sec1ListItem';
 
-const sec1List = (
-
-    ) => {
+const sec1List = () => 
+    {
         return (
             <>
                 <>

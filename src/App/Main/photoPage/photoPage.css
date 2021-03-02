@@ -1,0 +1,42 @@
+
+
+.text-section2 {
+    padding-bottom: 20px;
+}
+
+.text-section2 h3 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.full-desc {
+    width: 600px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.grid-rows-section2 {
+    justify-items: center;
+}
+
+.all {
+    text-decoration: none;
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    color: rgba(0, 0, 0, 0.39);
+    border-radius: 3px;
+    font-family: myriad-arabic, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    font-style: normal;
+    margin-left: 20px;
+}
+
+.all:hover {
+    background-color: #998675;
+    color: white;
+    border: 1px solid transparent;
+}

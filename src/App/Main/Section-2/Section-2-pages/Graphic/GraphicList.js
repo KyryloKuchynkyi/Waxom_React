@@ -9,7 +9,7 @@ const GraphicList= () => {
     return (
         <>
             {
-                Sec2.filter(item => item.category == "Graphic Design").map (({
+                Sec2.filter(item => item.category == "Graphic").map (({
                     id,
                     image,
                     info_h3,
