@@ -1,0 +1,43 @@
+
+.general-title {
+
+}
+
+.imonials-box {
+    background-color: rgba(192, 192, 192, 0.521);
+    padding: 10px;
+}
+
+.name {
+    margin-bottom: 15px;
+}
+
+.text {
+    margin-bottom: 15px;
+}
+
+.grid-testimonials {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-top: 20px;
+}
+
+.grid-testimonials div {
+    margin-top: 10px;
+}
+
+.grid-testimonials div input{
+    width: 200px;
+}
+
+.grid-testimonials button {
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid #998675;
+    color: #998675;;
+}
+
+.grid-testimonials button:hover {
+    color: white;
+    background-color:  #998675;
+}
